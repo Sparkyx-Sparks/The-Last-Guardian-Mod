@@ -1,17 +1,21 @@
 package sparkyx_sparks.mod;
 
-import sparkyx_sparks.mod.proxy.CommonProxy;
-import sparkyx_sparks.mod.util.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import sparkyx_sparks.mod.proxy.CommonProxy;
+import sparkyx_sparks.mod.tabs.TheLastGuardianTab;
+import sparkyx_sparks.mod.util.Reference;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
+	
+	public static final CreativeTabs thelastguardiantab = new TheLastGuardianTab("thelastguardiantab");
     
     @Instance
     public static Main instance;
