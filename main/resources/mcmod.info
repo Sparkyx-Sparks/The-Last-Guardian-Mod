@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "modid": "tlg",
+  "name": "The Last Guardian Mod",
+  "description": "The world of The Last Guardian brought to Minecraft!",
+  "version": "${1.0.0}",
+  "mcversion": "${1.12.2}",
+  "url": "https://github.com/Sparkyx-Sparks/The-Last-Guardian-Mod",
+  "updateUrl": "https://github.com/Sparkyx-Sparks/The-Last-Guardian-Mod",
+  "authorList": ["Sparkyx-Sparks"],
+  "credits": "Japan Studio, and their incredible game, CJMinecraft01 thanks to his Minecraft ForgeModLoader and Harry's Tech Reviews for tutorials on mod making since this is my first mod!",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
