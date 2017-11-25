@@ -18,5 +18,7 @@ public class BlockInit {
 	public static final Block STONE_FLOOR_SLAB = new BlockBase("stone_floor_slab", Material.ROCK);
 	public static final Block STONE_MOSS = new BlockBase("stone_moss", Material.ROCK);
 	public static final Block ROCKS_MOSS = new BlockBase("rocks_moss", Material.ROCK);
+	
+	public static final Block UNSTABLE_STONE = new BlockBase("stone_unstable", Material.ROCK);
 
 }
